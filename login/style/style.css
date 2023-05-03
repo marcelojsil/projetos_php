@@ -1,0 +1,46 @@
+body, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: rgb(12, 12, 12);
+    color: rgb(221, 221, 221);
+}
+.img {
+    margin: 2em 0 2em 0;
+}
+form {
+    background-color: rgb(112, 112, 200);
+    border-radius: 2em;
+    width: 35vw;
+    height: 50vh;
+}
+form input {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    width: 25vw;
+    height: 5vh;
+    border-radius: .5em;
+    margin: 2em 0 2em 0;
+    font-size: 30px;
+    text-align: center;
+}
+form button {
+    background-color: rgb(245, 95, 8);
+    width: 10vw;
+    height: 5vh;
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+    border: none;
+    border-radius: .5em;
+}
+form button:hover {
+    background-color: rgb(221, 221, 221) ;
+    font-weight: bolder;
+}
+p {
+    font-size: 1.5em;
+    margin-top: 2em;
+}
